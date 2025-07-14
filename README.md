@@ -72,6 +72,29 @@ You’ll see a live GUI with usage info and buttons for:
 
 ---
 
+### Windows Default Open Resource Monitor
+
+Press Win + R to open Run
+
+Type:
+
+    resmon
+Press Enter
+
+Go to the Network tab
+
+###📊 What You'll See
+🔸 Processes with Network Activity:
+   Shows which .exe or process is using network
+   Sortable by Send (B/sec) or Receive (B/sec)
+
+🔸 Network Activity:
+   Shows total amount of data used by each app, live
+
+🔸 TCP Connections:
+   Shows which app is connected to which remote IP
+   
+---
 🧠 Future Ideas
 
 - 🔔 Notify user when data crosses a daily limit
