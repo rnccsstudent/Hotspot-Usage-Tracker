@@ -34,10 +34,8 @@ Make sure you have:
 Open terminal or CMD and run:
 
     pip install psutil matplotlib
-    
----
 
-## 3. 🚀 Run Locally
+### 3. 🚀 Run Locally
 
 On Windows, run this file as Administrator:
    
@@ -54,7 +52,7 @@ You’ll see a live GUI with usage info and buttons for:
 ---
 ### 📂 Files Generated
 
-'data_usage_record.json' – stores daily total data usage
+' data_usage_record.json ' – stores daily total data usage
 
 'app_usage_log.json' – logs apps that used internet with timestamps
 
@@ -66,11 +64,11 @@ You’ll see a live GUI with usage info and buttons for:
 
 ⚠️ Important Notes
 
-Must run as Administrator to access full per-process network data.
+- Must run as Administrator to access full per-process network data.
 
-Only tracks data from the Wi-Fi/hotspot interface (default is "Wi-Fi").
+- Only tracks data from the Wi-Fi/hotspot interface (default is "Wi-Fi").
 
-Can be customized for "Ethernet" or other interfaces.
+- Can be customized for "Ethernet" or other interfaces.
 
 ---
 
