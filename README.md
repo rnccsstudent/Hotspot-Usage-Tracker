@@ -83,15 +83,18 @@ Press Enter
 
 Go to the Network tab
 
-###📊 What You'll See
+### 📊 What You'll See
 🔸 Processes with Network Activity:
+
    Shows which .exe or process is using network
    Sortable by Send (B/sec) or Receive (B/sec)
 
 🔸 Network Activity:
+
    Shows total amount of data used by each app, live
 
 🔸 TCP Connections:
+
    Shows which app is connected to which remote IP
    
 ---
