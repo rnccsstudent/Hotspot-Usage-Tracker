@@ -72,7 +72,7 @@ You’ll see a live GUI with usage info and buttons for:
 
 ---
 
-### Windows Default Open Resource Monitor
+### [OPTIONAL] Windows Default Open Resource Monitor
 
 Press Win + R to open Run
 
