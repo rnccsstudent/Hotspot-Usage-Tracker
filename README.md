@@ -4,7 +4,7 @@ A simple yet powerful Python GUI app that helps you track **daily internet usage
 
 ## 🔗 Screenshots
 
-➡️ ![View Live](update_code.png)
+➡️ ![View Live](hotspot-usage.png)
 
 ---
 
