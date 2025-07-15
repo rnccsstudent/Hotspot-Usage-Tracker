@@ -4,19 +4,34 @@ A simple yet powerful Python GUI app that helps you track **daily internet usage
 
 ## 🔗 Screenshots
 
-➡️ ![View Live](hotspot_usage.png)
+➡️ ![View Live](update_code.png)
 
 ---
 
 ## 🚀 Features
 
-- 📊 Track **today's total Wi-Fi/hotspot data** usage (Sent / Received / Total in MB)
-- 🧠 Shows **top 10 apps** currently using internet
-- 🕓 Logs app usage every 10 seconds with timestamps
-- 📈 View **graph of daily internet usage**
-- 📋 View app activity logs in a GUI table
-- 💾 Export all usage logs to **CSV** (for Excel or analysis)
-- 🗃️ Stores daily usage history in JSON
+- 📊 **Real-Time Monitoring** of Sent, Received, and Total Data over Wi-Fi
+- 🧠 **Per-App Network Logging** — see which apps used the internet
+- 📅 **Daily Usage History Graph**
+- ⏱️ **Opening, Closing, and Total Session Time**
+- 📝 **Save Daily Report** as `.txt` (date-wise)
+- 📁 **Merge All .txt Reports** into a single file (`all_reports.txt`)
+- 💾 **Export Logs** to CSV (summary + app usage log)
+- ⚠️ **Data Limit Alert** with sound + popup
+- 🪟 Built with **Tkinter GUI** (no internet required)
+
+---
+## 📁 Files Generated
+
+| File Name                  | Purpose                                    |
+|----------------------------|--------------------------------------------|
+| `data_usage_record.json`  | Tracks sent/received data per day/month    |
+| `app_usage_log.json`      | Logs which apps accessed internet          |
+| `YYYY-MM-DD.txt`          | Daily report with duration, usage, apps    |
+| `all_reports.txt`         | Merged text report of all `.txt` files     |
+| `daily_usage.csv`         | CSV of daily sent/received data            |
+| `app_log.csv`             | Raw timestamp log of app network access    |
+| `app_summary.csv`         | Per-app summary with hit count & duration  |
 
 ---
 
@@ -37,7 +52,7 @@ Open terminal or CMD and run:
 
 ### 3. 🚀 Run Locally
 
-On Windows, run this file as Administrator:
+On Windows, run this file as Administrator(Windows Terminal or Command Prompt):
    
     python app.py
 
@@ -67,6 +82,9 @@ You’ll see a live GUI with usage info and buttons for:
 - Must run as Administrator to access full per-process network data.
 
 - Only tracks data from the Wi-Fi/hotspot interface (default is "Wi-Fi").
+
+- Daily limit set to 500 MB
+  ➜ Change DAILY_LIMIT_MB = 500 as per your needs.
 
 - Can be customized for "Ethernet" or other interfaces.
 
@@ -98,13 +116,19 @@ Go to the Network tab
    Shows which app is connected to which remote IP
    
 ---
-🧠 Future Ideas
-
-- 🔔 Notify user when data crosses a daily limit
+🧠 Future Ideas 
 
 - 📊 Show top data-consuming apps
 
 - ☁️ Sync logs to cloud
+- 
+- 🔔 Auto-email daily report
+
+- ✅ Dark mode UI
+
+- ✅ Background tray mode
+
+- ✅ Hotspot timer mode
 
 ### 📜 License
 
