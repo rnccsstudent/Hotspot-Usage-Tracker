@@ -65,17 +65,6 @@ You’ll see a live GUI with usage info and buttons for:
 - Exporting to CSV
 
 ---
-### 📂 Files Generated
-
-- `data_usage_record.json` – stores daily total data usage
-
-- `app_usage_log.json` – logs apps that used internet with timestamps
-
-- `daily_usage.csv` – exported CSV of daily usage
-
-- `app_log.csv` – exported app activity log
-
----
 
 ⚠️ Important Notes
 
