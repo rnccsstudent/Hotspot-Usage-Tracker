@@ -110,7 +110,7 @@ Go to the Network tab
 - 📊 Show top data-consuming apps
 
 - ☁️ Sync logs to cloud
-- 
+
 - 🔔 Auto-email daily report
 
 - ✅ Dark mode UI
